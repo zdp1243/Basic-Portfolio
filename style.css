@@ -1,0 +1,70 @@
+
+
+<!--Page Background Dark Embroidery-->
+.body {background-image: image (href="../Web_Background_Images/dark_embroidery.png");}
+.body {font-family: Arial, Helvetica, sans-serif; font-size 150%;}
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+<!--Header and Alignment-->
+
+.h1 {font-family: Georgia, 'Times New Roman', Times, serif; font-size: 300%; font-weight: bold; text-align: center; }
+
+header h1 {color: black ; font-size: 120%; font-weight: normal; }
+header h2 {color: darkgrey ; font-size:100%; font-weight: normal; } 
+
+
+<!--Image Border-->
+.img {border-style: solid; 
+    border-color: black; 
+    border-width: 2px;
+}
+
+<!--Align image to center-->
+	
+		img {display: block;
+		margin-left: auto;
+		margin-right: auto;
+        }
+        
+        <!--Align text to center.-->
+        .center {text-align: center;
+        }   
+        footer {background-color:darkgray; color: white; padding: 0.5em 5em; 
+        }
+        footer p{margin: 0em; font-size: 85%;}
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #ccc;
+          }
+          
+          #left {
+            float: left;
+            width: 33.3%;
+            color: #fff;
+            background: #666;
+          }
+          
+          #middle {
+            float: left;
+            width: 33.3%;
+            color: #fff;
+            background: #888;
+          }
+          
+          #right {
+            float: left;
+            width: 33.3%;
+            color: #fff;
+            background: #666;
+          }
