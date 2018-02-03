@@ -1,89 +1,46 @@
 
 
+.navbar {
+    background-color:white;
 
-/*Background color*/
-body { 
-    background-color: rgb(236, 232, 232);
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 150%;
     }
 
+.navbuttons {
+    list-style-type:none;
+    margin-top:0;
+    padding:0;
+    overflow:hidden;
+    
+    }
+
+/*Button Appearance*/
 .button {
-    font: bold 20px Arial;
-    text-decoration: none;
-    background-color:rgb(236, 232, 232) ;
-    color: #8f8a8a;
-    padding: 6px 6px 6px 6px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #cccccc;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
-  }
+	font:bold 20px Arial;
+	text-decoration: none;
+	background-color: white;
+	color:#cccccc;
+	padding:15px 25px 9px 25px;
+    float:right;
+    
+    }
 
-/* Clearfix */
+.name {background:#4aaaa5; 
+	color:#cccccc; 
+	font-family:Georgia;
+    font-size:35px;
+    font-weight:bold; 
+	width:21%; 
+	padding:2%;
+    margin-bottom:0px;
+    margin-top:0px;
+    float:left;
+    
+    }
+/*Footer is inline CSS*/
 
+/*Clearfix*/
 .clearfix::after {
-    content:"";
-    display: block;
-    clear:both;
-}
-
-/* Header and Alignment */
-
-header h1 {color: black ; font-size: 100%; font-weight: normal; }
-header h2 {color: darkgrey ; font-size:100%; font-weight: normal; } 
-
-
-/* Image Border */
-
-.img {border-style: solid; 
-    border-color: black; 
-    border-width: 2px;
-}
-
-/* Align image to center */
-	
-		img {display: block;
-		margin-left: auto;
-        margin-right: auto;
-        ;
-        }
-        
-/* Align text to center */
-
-        .center {text-align: center;
-        }   
-        footer {background-color:darkgray; color: white; padding: 0.5em 5em; 
-        }
-        footer p{margin: 0em; font-size: 85%;}
-
-        section {
-            padding: 30px;
-            margin-bottom: 30px;
-            background: #ffffff;
-          }
-          
-          #left {
-            float: left;
-            width: 33.3%;
-            color: #fff;
-            background: #4aaaa5;
-          }
-          
-          #middle {
-            width: 33.3%;
-            color: #fff;
-            background: #cccccc;
-          }
-          
-          #right {
-            float: right;
-            width: 33.3%;
-            color: #fff;
-            background: #cccccc;
-          }
-          #p1 {
-            color: red;
-          }
-          
-        
+	content:"";
+	display:block;
+	clear:both;
+	}
