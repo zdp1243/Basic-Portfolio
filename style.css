@@ -66,15 +66,6 @@ body {background: #cccccc;
     float:right;
 }
 
-.footer {
-    background-color:#666666;
-    border-width:10px 0px 0px 0px;
-    color:white;
-    font-size: 15px;
-    padding:2.2%;
-    border-top: 10px solid #4aaaa5;
-
-}
 
 .bio {
     background-color:white;
@@ -87,6 +78,37 @@ body {background: #cccccc;
 
 }
 
+.contactform {
+    background-color:white;
+    width: 950px;
+    height:650px;
+    margin-top: 0%;
+    margin-right:1%;
+    margin-left:1%;
+    margin-bottom:1%;
+
+}
+
+.portfolio {
+    background-color:white;
+    width: 950px;
+    height:650px;
+    margin-top: 0%;
+    margin-right:1%;
+    margin-left:1%;
+    margin-bottom:1%;
+
+}
+
+.footer {
+    background-color:#666666;
+    border-width:10px 0px 0px 0px;
+    color:white;
+    font-size: 15px;
+    padding:2.2%;
+    border-top: 20px solid #4aaaa5;
+
+}
 /*Clearfix*/
 .clearfix::after {
 	content:"";
